@@ -1,0 +1,9 @@
+### Get page block
+GET {{notionApi}}/blocks/{{pageBlockId}}
+Authorization: Bearer {{secretId}}
+Notion-Version: 2021-05-13
+
+### Get page block children
+GET {{notionApi}}/blocks/{{pageBlockId}}/children?page_size=100
+Authorization: Bearer {{secretId}}
+Notion-Version: 2021-05-13
