@@ -1,0 +1,9 @@
+{
+  "name": "uniform-mesh-notion",
+  "private": true,
+  "workspaces": [
+    "example",
+    "packages/*",
+    "website"
+  ]
+}
