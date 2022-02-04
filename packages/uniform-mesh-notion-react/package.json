@@ -7,6 +7,10 @@
   "dependencies": {
     "react": "17.0.2"
   },
+  "peerDependencies": {
+    "@notionhq/client": ">=0.4.13",
+    "@uniformdev/canvas": "^13.0.0"
+  },
   "devDependencies": {
     "@types/node": "17.0.14",
     "@types/react": "17.0.39",
